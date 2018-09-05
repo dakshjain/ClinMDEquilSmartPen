@@ -1,0 +1,4 @@
+#Sun Sep 02 23:52:52 IST 2018
+base.0=C\:\\Users\\mbbbj\\ClinMDEquilSmartPen\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

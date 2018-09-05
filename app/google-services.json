@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "1036662224582",
+    "firebase_url": "https://clinmd-equil.firebaseio.com",
+    "project_id": "clinmd-equil",
+    "storage_bucket": "clinmd-equil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036662224582:android:6ca452ad2d55b9b4",
+        "android_client_info": {
+          "package_name": "com.example.daksh.clinmdequilsmartpenlaunch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036662224582-tfklbgehregr4f7t0qeka98ojintm1gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daksh.clinmdequilsmartpenlaunch",
+            "certificate_hash": "fdfc356ef111ad912d2050c9f488189127215f19"
+          }
+        },
+        {
+          "client_id": "1036662224582-qdkohkqvf2j7c88p6b54tesfhrd2ra0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daksh.clinmdequilsmartpenlaunch",
+            "certificate_hash": "ce361733aa9e1f078d7e7e74ee9fdb3de9147505"
+          }
+        },
+        {
+          "client_id": "1036662224582-86uroegu4rvk1ejaguppcqefua0nknvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daksh.clinmdequilsmartpenlaunch",
+            "certificate_hash": "488d761eb4b3e7772d6461bbf18426ae06c40738"
+          }
+        },
+        {
+          "client_id": "1036662224582-l9hc7kpnv012q5o4e9lfbdkmqphi348r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQk-sihEqXU7f43s4SBcAABgWHOazrWOE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036662224582-l9hc7kpnv012q5o4e9lfbdkmqphi348r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

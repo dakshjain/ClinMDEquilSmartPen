@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible">
+
+    </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/recycler"
+        app:layout_anchorGravity="bottom|end"
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        fab:menu_fab_size="normal"
+        fab:menu_colorNormal="@color/colorPrimary"
+        fab:menu_colorPressed="@color/colorPrimaryDark"
+        fab:menu_colorRipple="@color/colorPrimary">
+
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/add_document_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_colorPressed="@color/colorPrimaryDark"
+            app:fab_colorRipple="@color/colorPrimary"
+            android:src="@drawable/fab_add"
+            fab:fab_label="add document"
+            style="@style/MenuButtonsSmall" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+</FrameLayout>

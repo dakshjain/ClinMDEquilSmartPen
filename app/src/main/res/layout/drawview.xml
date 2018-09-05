@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#ffffff">
+
+    <com.pnf.penequillaunch.others.ZoomImageView
+        android:id="@+id/drawViewBGImgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     />
+
+    <FrameLayout
+        android:id="@+id/drawNoteLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+ >
+
+        <com.pnf.penequillaunch.drawingview.DrawView
+            android:id="@+id/drawView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+
+
+</FrameLayout>

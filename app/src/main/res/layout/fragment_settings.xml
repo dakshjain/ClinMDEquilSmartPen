@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.clinmd.clinmd_app.mainActivity.SettingsFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:clickable="false"
+                android:focusable="false"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="8dp">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/docPhoto"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ic_person_outline_black_24dp" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/person_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:letterSpacing="0.05"
+                    android:maxLines="4"
+                    android:text="@string/name"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/speciality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/speciality"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        app:cardElevation="@dimen/activity_horizontal_margin">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/account"
+                    style="@style/listItemStyle"
+                    android:drawableStart="@drawable/ic_person_colored"
+                    android:text="@string/account" />
+
+
+                <TextView
+                    android:id="@+id/change_pin"
+                    style="@style/listItemStyle"
+                    android:drawableStart="@drawable/ic_login"
+                    android:text="Change Pin" />
+
+
+                <TextView
+                    android:id="@+id/connect_pen"
+                    style="@style/listItemStyle"
+                    android:drawableStart="@drawable/ic_sync"
+                    android:text="@string/how_to_connect" />
+
+                <TextView
+                    android:id="@+id/help"
+                    style="@style/listItemStyle"
+                    android:drawableStart="@drawable/ic_help"
+                    android:text="@string/help_feedback" />
+                <TextView
+                    android:id="@+id/calibrate_pen"
+                    style="@style/listItemStyle"
+                    android:drawableStart="@drawable/ic_sync"
+                    android:text="Calibrate" />
+
+
+             <!--   <TextView
+                    android:id="@+id/order"
+                    style="@style/listItemStyle"
+                    android:drawableStart="@drawable/ic_shopping_cart"
+                    android:text="@string/order" />
+
+
+                <TextView
+                    android:id="@+id/rate_us"
+                    style="@style/listItemStyle"
+                    android:drawableStart="@drawable/ic_rate"
+                    android:text="@string/rate_us" />-->
+
+                <View style="@style/horizontal_divider"  android:layout_marginStart="0dp"/>
+
+                <TextView
+                    android:id="@+id/tnc"
+                    style="@style/listItemStyle"
+                    android:text="@string/tnc" />
+
+                <TextView
+                    android:id="@+id/privacy_policy"
+                    style="@style/listItemStyle"
+                    android:text="@string/privacy" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

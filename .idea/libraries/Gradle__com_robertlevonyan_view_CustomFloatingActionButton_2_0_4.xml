@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.robertlevonyan.view:CustomFloatingActionButton-2.0.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CustomFloatingActionButton-2.0.4.aar/b6ca5ea8f8d1d1f2b9f0e7b4e508debe/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CustomFloatingActionButton-2.0.4.aar/b6ca5ea8f8d1d1f2b9f0e7b4e508debe/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.robertlevonyan.view/CustomFloatingActionButton/2.0.4/6a8e2420e6769fade77d3b38fb6a65b014ebb010/CustomFloatingActionButton-2.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

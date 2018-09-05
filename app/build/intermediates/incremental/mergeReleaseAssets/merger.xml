@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\mbbbj\ClinMDEquilSmartPen\app\src\main\assets"><file name="edited_Smartpen_Hardware_Guide.pdf" path="C:\Users\mbbbj\ClinMDEquilSmartPen\app\src\main\assets\edited_Smartpen_Hardware_Guide.pdf"/></source><source path="C:\Users\mbbbj\ClinMDEquilSmartPen\app\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\mbbbj\ClinMDEquilSmartPen\app\src\release\assets"/></dataSet></merger>

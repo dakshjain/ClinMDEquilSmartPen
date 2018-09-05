@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- Common -->
+    <string name="COMMON_OK">Ok</string>
+    <string name="COMMON_CLOSE">Close</string>
+    <string name="COMMON_CANCEL">Cancel</string>
+	<string name="COMMON_SAVE">Save</string>
+	<string name="COMMON_RETRY">Retry</string>
+	<string name="COMMON_APPLY">Apply</string>
+	<string name="COMMON_CLEAR">Clear</string>
+	
+	<string name="QUIL_APP">Quit App</string>
+	
+	<string name="FAIL_LISTENING_MSG">abnormal connect. please reconnect device.</string>
+	<string name="PEN_SLEEP_MODE_MSG">Press Pen power button once to use as the pen is on sleep mode.</string>
+	<string name="PEN_TEMP_ERROR_MSG">Low temperature may cause problems during writing.</string>
+	<string name="PEN_RMD_ERROR_MSG">RMD_ERROR</string>
+	
+    
+    <!-- MainActivity -->
+    <string name="MainActivity_Text_Value_01">Drawing</string>
+    <string name="MainActivity_Text_Value_02">Calibration</string>
+    <string name="MainActivity_Text_Value_03">StopPen</string>
+    <string name="MainActivity_Text_Value_04">ReStartPen</string>
+    
+    <string name="MainActivity_Text_Value_05">Time test</string>
+    
+    <string name="MainActivity_Text_Value_06">Clear Log</string>
+    <string name="MainActivity_Text_Value_07">Threshold Test</string>
+    
+    
+    <string name="MainActivity_Text_Value_08">Sensor dis</string>
+    <string name="MainActivity_Text_Value_09">IR_GAP</string>
+    
+    <string name="MainActivity_Text_Value_10">Apply</string>
+    
+    <string name="MainActivity_Text_Value_11">ModelCode</string>
+    <string name="MainActivity_Text_Value_12">H/W Ver</string>
+    
+    <string name="MainActivity_Text_Value_13">MCU1 Ver</string>
+    <string name="MainActivity_Text_Value_14">Alive Sec</string>
+    
+    <string name="MainActivity_Text_Value_15">MCU2 Ver</string>
+    <string name="MainActivity_Text_Value_16">Temperature</string>
+    
+    <string name="MainActivity_Text_Value_17">Packet Count</string>
+    <string name="MainActivity_Text_Value_18">Clear</string>
+    
+    <string name="MainActivity_Text_Value_19">Err X Cnt</string>
+    <string name="MainActivity_Text_Value_20">Err Y Cnt</string>
+    
+    <string name="MainActivity_Text_Value_21">Pressure</string>
+    <string name="MainActivity_Text_Value_22">Cur Threshold</string>
+    
+    <string name="MainActivity_Text_Value_23">Status</string>
+    <string name="MainActivity_Text_Value_24">[1 = Down, 2 = Move, 3 = UP, 4 = Hover]</string>
+    
+    <string name="MainActivity_Text_Value_25">Raw X</string>
+    <string name="MainActivity_Text_Value_26">Raw Y</string>
+    
+    <string name="MainActivity_Text_Value_27">Conv X</string>
+    <string name="MainActivity_Text_Value_28">Conv Y</string>
+    
+    <string name="MainActivity_Text_Value_29">Down Count</string>
+    <string name="MainActivity_Text_Value_30">Move Count</string>
+    <string name="MainActivity_Text_Value_31">Up Count</string>
+    <string name="MainActivity_Text_Value_32">Total Count</string>
+    <string name="MainActivity_Text_Value_33">Kbyte</string>
+    <string name="MainActivity_Text_Value_34">Byte</string>
+    <string name="MainActivity_Text_Value_35">Maker State</string>
+    
+    
+    
+    
+    <!-- CalibrationActivity -->
+    <string name="CALIBRATION_TITLE">Do you want to save your calibration changes?</string>
+
+
+
+    <string name="app_name">ClinMD</string>
+<!--
+    <string name="google_app_id" translatable="false">1:568603147858:android:833dcd0481312a2f</string>
+-->
+
+    <string name="connection">Connect Pen</string>
+    <string name="disconnection">Disconnect Pen</string>
+    <string name="setting">Settings</string>
+
+
+    <string name="pen_status">Pen Status</string>
+    <string name="device_status">Device Status</string>
+
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning for devices…</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="button_le_scan">Scan for LE devices</string>
+    <string name="ok">OK</string>
+    <string name="pen_not_found">Pen Not Found</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="patient_id">Patient Id</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="visits">Total Visits</string>
+    <string name="phone">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="login_text">Please Enter 10 digit Mobile Number</string>
+    <string name="register">New User?</string>
+    <string name="logging">Logging you in</string>
+    <string name="tagline">Medical records.\n Always at your Fingertips.</string>
+
+    <string name="tnc">Terms and Conditions</string>
+    <string name="title_home">Home</string>
+    <string name="analytics">Analytics</string>
+    <string name="account">Account</string>
+    <string name="order">Order Pages or Pen</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="how_to_connect">How to connect the pen ?</string>
+    <string name="help_feedback">Help And Feedback</string>
+    <string name="speciality">Speciality</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="quantity">Quantity</string>
+    <string name="offer">+1 Pen free</string>
+    <string name="repeat_order">Repeat order every month</string>
+    <string name="add_to">Add to cart</string>
+    <string name="do_you_have">Do you have the ClinMD Smart Pen?</string>
+    <string name="email">Email ID</string>
+    <string name="reg_id">Registration ID</string>
+    <string name="address">Hospital Address</string>
+    <string name="tagline_single_line">Medical records. Always at your Fingertips.</string>
+    <string name="website">Website</string>
+    <string name="rate_us">Rate Us on Google Play</string>
+    <string name="search_title">Search</string>
+    <string name="calendar">Calendar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_appointments">No Appointments yet</string>
+
+
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="share">Share</string>
+    <string name="cancel">Cancel</string>
+    <string name="mobile">Mobile</string>
+    <string name="RegId">RegId</string>
+
+
+</resources>

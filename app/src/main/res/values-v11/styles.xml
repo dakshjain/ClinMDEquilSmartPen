@@ -1,0 +1,254 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowAnimationStyle">@style/AppTheme.Animation</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="selectableItemBackground">@drawable/select_bg</item>
+        <item name="selectableItemBackgroundBorderless">@drawable/select_bg</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowAnimationStyle">@style/AppTheme.Transparent.Animation</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="AppTheme.Animation" parent="android:style/Animation.Activity">
+        <item name="android:activityCloseExitAnimation">@anim/anim_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_in_from_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_out_to_left</item>
+        <item name="android:activityOpenEnterAnimation">@anim/anim_in_from_right</item>
+    </style>
+
+    <style name="AppTheme.Transparent.Animation" parent="android:style/Animation.Activity">
+        <item name="android:activityCloseExitAnimation">@anim/anim_out_to_bottom</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_in_from_bottom</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_out_to_bottom</item>
+        <item name="android:activityOpenEnterAnimation">@anim/anim_in_from_bottom</item>
+    </style>
+    <!-- Application theme. -->
+
+
+    <style name="textInputcoordinate">
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog" />
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowAnimationStyle">@style/AppTheme.Transparent.Animation</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="listItemStyle">
+
+        <item name="android:clickable">true</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="pinKeyLayout">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/pin_key</item>
+        <item name="android:textColor">@color/colorPrimaryDarker</item>
+    </style>
+
+    <style name="horizontal_divider">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:background">@drawable/divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="ProfileTitle">
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="AppTheme.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/AppTheme.Transparent.Animation</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="ProfileIcon">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="ProfileText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="Tabs">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ProfileTabImage">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:tint">#fff</item>
+    </style>
+
+    <style name="TabTitleText">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="otpKeyLayout">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/circle2</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="menu_item_contact_us">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="Detail_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="ProfileIcon.ContactUs">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:scaleType">fitEnd</item>
+    </style>
+
+    <style name="TextInputForm">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">30</item>
+    </style>
+
+    <style name="PatientCardButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="MenuLabelsStyle">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="MenuButtonsStyle">
+        <item name="fab_size">mini</item>
+        <item name="fab_showAnimation">@anim/jump_from_down</item>
+        <item name="fab_hideAnimation">@anim/jump_to_down</item>
+        <item name="fab_shadowColor">#444</item>
+        <item name="fab_colorNormal">#FFB805</item>
+        <item name="fab_colorPressed">#F2AB00</item>
+        <item name="fab_colorRipple">#D99200</item>
+    </style>
+
+    <style name="MenuButtonsSmall">
+        <item name="fab_size">mini</item>
+        <item name="fab_colorNormal">#1565C0</item>
+        <item name="fab_colorPressed">#2272CD</item>
+        <item name="fab_colorRipple">#62B2FF</item>
+    </style>
+
+    <style name="MenuButtonsSmall.Green">
+        <item name="fab_colorNormal">#43A047</item>
+        <item name="fab_colorPressed">#2E7D32</item>
+        <item name="fab_colorRipple">#1B5E20</item>
+    </style>
+
+    <style name="DrawerItemTextAppearance">
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+    </style>
+
+    <style name="ShareButtonsStyle">
+
+        <item name="fab_showAnimation">@anim/jump_from_down</item>
+        <item name="fab_hideAnimation">@anim/jump_to_down</item>
+
+    </style>
+
+</resources>

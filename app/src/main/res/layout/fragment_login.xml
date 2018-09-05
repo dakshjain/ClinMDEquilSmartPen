@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:scrollbarSize="0dp"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingBottom="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context="com.clinmd.clinmd_app.mainActivity.PageListFragment">
+
+            <TextView
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/login_text" />
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/phone_numberL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:hint="@string/phone"
+                    android:inputType="phone"
+                    android:letterSpacing="0.1"
+                    android:maxEms="10"
+                    android:maxLength="10"
+                    android:minEms="10"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!--  <Button
+                  style="?attr/buttonBarButtonStyle"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:layout_alignParentEnd="true"
+                  android:text="Generate OTP" />-->
+
+
+
+            <Button
+                android:id="@+id/registerPhone"
+                style="?attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:textColor="#37474F"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_check_white" />
+</RelativeLayout>

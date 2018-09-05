@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.pnf.penequillaunch.drawingview.DrawView
+        android:id="@+id/drawView_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"/>
+
+    <com.pnf.penequillaunch.others.ZoomImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:scaleType="center" />
+
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff" />
+
+    <ViewStub
+        android:id="@+id/penSleepStub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/pensleepview" />
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sun Sep 02 22:47:56 IST 2018
+1.base=C\:\\Users\\mbbbj\\ClinMDEquilSmartPen\\app\\build\\intermediates\\assets\\release
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\mbbbj\\ClinMDEquilSmartPen\\app\\build\\intermediates\\transforms\\dex\\release\\0
+1.path=edited_Smartpen_Hardware_Guide.pdf

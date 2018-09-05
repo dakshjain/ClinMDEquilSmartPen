@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#367f98</color>
+    <color name="colorPrimaryDark">#367f98</color>
+    <color name="colorPrimaryDarker">#607d8b</color>
+    <color name="colorAccent">#4db6ac</color>
+    <color name="colorAccentTrans">#dfdfdf</color>
+    <color name="lightGray">#eeeeee</color>
+
+    <color name="list_item_selected_state">#e2e4e4</color>
+    <color name="list_item_normal_state">#FFFFFF</color>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalCalendarView">
+        <!-- Text color for all dates except selected Date.-->
+        <attr name="textColorNormal" format="color" />
+        <!-- Text color for selected Date. -->
+        <attr name="textColorSelected" format="color" />
+        <!-- Background color for selector bar. -->
+        <attr name="selectorColor" format="color" />
+        <!-- Background color for selected date item. -->
+        <attr name="selectedDateBackground" format="color" />
+        <!-- Text size for month name. -->
+        <attr name="textSizeMonthName" format="dimension" />
+        <!-- Text size for day number. -->
+        <attr name="textSizeDayNumber" format="dimension" />
+        <!-- Text size for day name. -->
+        <attr name="textSizeDayName" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ZoomImageView">
+        <attr name="zoomage_zoomable" format="boolean" />
+        <attr name="zoomage_translatable" format="boolean" />
+        <attr name="zoomage_restrictBounds" format="boolean" />
+        <attr name="zoomage_animateOnReset" format="boolean" />
+        <attr name="zoomage_doubleTapToZoom" format="boolean" />
+        <attr name="zoomage_doubleTapToZoomScaleFactor" format="float" />
+        <attr name="zoomage_autoCenter" format="boolean" />
+        <attr name="zoomage_minScale" format="float" />
+        <attr name="zoomage_maxScale" format="float" />
+        <attr name="zoomage_autoResetMode" format="enum">
+            <enum name="UNDER" value="0" />
+            <enum name="OVER" value="1" />
+            <enum name="ALWAYS" value="2" />
+            <enum name="NEVER" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

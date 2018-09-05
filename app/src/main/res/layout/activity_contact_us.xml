@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="bottom"
+    android:background="#0000"
+    tools:context="com.clinmd.clinmd_app.activities.ContactUsActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        app:cardElevation="8dp"
+        app:contentPadding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:text="Get In Touch"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/close"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:tint="#f00"
+                    app:srcCompat="@drawable/ic_close" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:paddingEnd="2dp"
+                android:paddingStart="2dp"
+                android:text="Please select your preferred option"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#4000" />
+
+            <RelativeLayout
+                android:id="@+id/phone_number"
+                style="@style/menu_item_contact_us">
+
+                <LinearLayout
+                    android:id="@+id/phone_numberL"
+                    style="@style/Detail_layout">
+
+                    <TextView
+                        style="@style/ProfileTitle"
+                        android:text="@string/phone" />
+
+                    <TextView
+                        style="@style/ProfileText"
+                        android:text="9535482864 " />
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/ProfileIcon.ContactUs"
+                    android:layout_toEndOf="@id/phone_numberL"
+                    android:tint="#00C853"
+                    app:srcCompat="@drawable/ic_phone" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/phone_numberL"
+                    android:layout_marginTop="10dp"
+                    android:background="#4000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/email"
+                style="@style/menu_item_contact_us">
+
+
+                <LinearLayout
+                    android:id="@+id/emailL"
+                    style="@style/Detail_layout">
+
+                    <TextView
+                        style="@style/ProfileTitle"
+                        android:text="@string/email" />
+
+                    <TextView
+                        style="@style/ProfileText"
+                        android:text="info@clinmd.com" />
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/ProfileIcon.ContactUs"
+                    android:layout_toEndOf="@id/emailL"
+                    android:tint="#FFD600"
+                    app:srcCompat="@drawable/ic_email" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/emailL"
+                    android:layout_marginTop="10dp"
+                    android:background="#4000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/web"
+                style="@style/menu_item_contact_us"
+                android:background="?attr/selectableItemBackgroundBorderless">
+
+
+                <LinearLayout
+                    android:id="@+id/webL"
+                    style="@style/Detail_layout"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        style="@style/ProfileTitle"
+                        android:text="@string/website" />
+
+                    <TextView
+                        style="@style/ProfileText"
+                        android:text="https://www.clinmd.com" />
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/ProfileIcon.ContactUs"
+                    android:layout_toEndOf="@id/webL"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_earth" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
